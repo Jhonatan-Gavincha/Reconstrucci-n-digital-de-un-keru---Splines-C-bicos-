@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Reconstrucción digital del borde de un keru Tiwanaku con Splines Cúbicos (paramétricos).
-Genera el video completo (1280x720, sin audio) a partir del modelo matemático.
-
-Uso:
-    python keru_spline_video.py render  [foto.png]      -> keru_spline.mp4
-    python keru_spline_video.py frames 5 30 60 ...      -> PNG de tiempos concretos (prueba)
 """
 import sys, subprocess
 import numpy as np
